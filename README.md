@@ -13,3 +13,18 @@ Elaborar mais 5 perguntas que os dados, presentes no arquivo obtido, possam resp
 Gerar  fórmulas para responder às perguntas do item anterior
 Grave e poste o arquivo gerado em seu Github, editando o README de forma a explicar cada fórmula utilizada.
 
+### Atividade: Planilha de municípios com fórmulas
+ 1) QUANTIDADE MUNICIPIOS: 645,00 
+fórmula utilizada para contagem de municípios "=CONT.VALORES(A:A)-1"
+
+ 2) QUANTIDADE DE CADEIAS PRODUTIVAS: 24,00 
+fórmula utilizada para contagem de cadeias produtivas "=CONT.VALORES(C:C)-1"
+
+ 3) MAIOR VALOR GERADO EM 2020, EM SJC (VTI-MIL REAIS): 9.681.743,86 
+fórmula utilizada para contagem do valor gerado "=MÁXIMOSES(sp_municipal!G:G;sp_municipal!D:D;2020;sp_municipal!B:B;"São José dos Campos")"
+
+ 4) MAIOR VTI EM 2007: 11.721.509,53 
+fórmula utilizada para achar o maior valor de VTI "=MÁXIMOSES(sp_municipal!G:G;sp_municipal!D:D;2007)"
+
+ 5) CADEIA PRODUTIVA, CUJO O VTI FOI MAIOR EM 2007	 Produtos Derivados Do Petróleo 
+fórmula utilizada para encontrar a cadeia produtiva "=ÍNDICE(sp_municipal!F:F;CORRESP(G18;sp_municipal!G:G;0);1)"
