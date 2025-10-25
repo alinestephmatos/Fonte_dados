@@ -28,3 +28,7 @@ fórmula utilizada para achar o maior valor de VTI "=MÁXIMOSES(sp_municipal!G:G
 
  5) CADEIA PRODUTIVA, CUJO O VTI FOI MAIOR EM 2007	 Produtos Derivados Do Petróleo 
 fórmula utilizada para encontrar a cadeia produtiva "=ÍNDICE(sp_municipal!F:F;CORRESP(G18;sp_municipal!G:G;0);1)"
+
+### Atividade: Criação de dashboard
+1) Pesquisa de dados no Comex de exportações em 2025 nos municípios
+2) Criação de dashboard com os dados de exportações nos municípios em 2025.
