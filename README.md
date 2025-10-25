@@ -32,3 +32,7 @@ fórmula utilizada para encontrar a cadeia produtiva "=ÍNDICE(sp_municipal!F:F;
 ### Atividade: Criação de dashboard
 1) Pesquisa de dados no Comex de exportações em 2025 nos municípios
 2) Criação de dashboard com os dados de exportações nos municípios em 2025.
+
+### Atividade:
+1) Pesquisa de dados no Comex Stat de exportações de 2020 a 2025
+2) Criação de dashboard com os dados de exportações por países.
